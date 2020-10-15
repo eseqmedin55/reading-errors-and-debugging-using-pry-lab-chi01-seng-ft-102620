@@ -1,6 +1,6 @@
 # don't forget to add: require 'pry'
-
-def get_user_input
+require 'pry'
+def user_input
   gets.chomp
 end
 
@@ -10,7 +10,7 @@ def prompt_user
   puts "2.) Eat a ham."
 end
 
-def selection(num)
+def selection(2)
   if num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
